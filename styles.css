@@ -30,7 +30,7 @@
     color: rgb(172, 171, 171);
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 1rem;
 }
 
@@ -55,7 +55,7 @@
 
 #signup-button {
     margin-top: 1rem;
-    width: 80px;
+    width: 100px;
     height: 30px;
     background-color: #3882f6;
     color: white;
@@ -68,7 +68,7 @@
     display: flex;
     background-color: rgb(165, 163, 163);
     width: 500px;
-    height: 180px;
+    height: 250px;
     margin-top: 4rem;
     margin-left: 8rem;
 }
@@ -92,17 +92,20 @@
     justify-content: center;
     font-size: 32px;
     font-weight: 500;
+    margin-top: 2rem;
 }
 .content-outer-box {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
     gap: 2rem;
+    height: 30vh;
 }
 
 .content-box {
     display: flex;
     flex-direction: column;
+    width: 100px;
 }
 
 .content-border-box {
@@ -110,4 +113,31 @@
     height: 100px;
     width: 100px;
     border-radius: 10px;
+}
+
+#content-subtext {
+    margin-top: 0.4rem;
+    text-align: center;
+    font-size: 12px;
+}
+
+.quote-box {
+    background-color: #e5e7eb;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote {
+    text-align: center;
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+#quote-author {
+    font-size: 20px;
+    margin-right: 1rem;
+    font-weight: 800;
 }
