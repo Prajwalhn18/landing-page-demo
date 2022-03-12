@@ -141,3 +141,48 @@
     margin-right: 1rem;
     font-weight: 800;
 }
+
+/* call to action */
+
+.call-to-action {
+    height: 30vh;
+    padding: 20px;
+    background-color: #2882f6;
+    border-radius: 8px;
+    margin: 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+
+#call-heading {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#call-subtext {
+    color: rgb(231, 231, 231);
+}
+
+#call-signup-button {
+    margin-top: 1rem;
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    border: 2px solid white;
+    padding: 4px;
+}
+
+#footer {
+    background-color: #1f2937;
+    color: white;
+    height: 60px;
+    padding: 22px;
+    text-align: center;
+}
